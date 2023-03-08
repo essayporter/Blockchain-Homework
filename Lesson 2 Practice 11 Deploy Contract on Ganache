@@ -1,0 +1,117 @@
+{
+  "contractName": "kart2",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/kart2.sol\":\"kart2\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/kart2.sol\":{\"keccak256\":\"0x38393ee4f64898e88f0141201b94b0ce7e560a458f67eb13f3604f2c664e5cd3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0396eebd78c92d578efce8dc4e0b98a1e3f66d760e22c0f5f8b8895758809c58\",\"dweb:/ipfs/Qmd7QrojfJDGKmFRmVidxaAN6PjZvmdxpycMpGHdTAsaNm\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122045981bdd4b3cde21ee6d2a06faccd1bdd5eed1f120273dc1bf036795cd8e561c64736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122045981bdd4b3cde21ee6d2a06faccd1bdd5eed1f120273dc1bf036795cd8e561c64736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:47:2:-:0;;;85:26;;;;;;;;;;66:47;;;;;;",
+  "deployedSourceMap": "66:47:2:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract kart2 {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:\\Users\\essay\\MetaCoin\\contracts\\kart2.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/kart2.sol",
+    "exportedSymbols": {
+      "kart2": [
+        119
+      ]
+    },
+    "id": 120,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 114,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "kart2",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 119,
+        "linearizedBaseContracts": [
+          119
+        ],
+        "name": "kart2",
+        "nameLocation": "75:5:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 117,
+              "nodeType": "Block",
+              "src": "106:5:2",
+              "statements": []
+            },
+            "id": 118,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 115,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "96:2:2"
+            },
+            "returnParameters": {
+              "id": 116,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "106:0:2"
+            },
+            "scope": 119,
+            "src": "85:26:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 120,
+        "src": "66:47:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:82:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-03-08T03:48:18.952Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
